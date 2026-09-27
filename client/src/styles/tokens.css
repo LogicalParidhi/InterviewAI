@@ -1,0 +1,44 @@
+/**
+ * Design tokens for the Resume Upload feature.
+ * Import this once (e.g. in ResumeUpload.tsx or your global stylesheet).
+ */
+:root {
+  /* Surface */
+  --color-bg: #0b0f19;
+  --color-surface: #131826;
+  --color-surface-raised: #1b2233;
+  --color-border: #232a3d;
+  --color-border-hover: #363f58;
+
+  /* Accent (violet — reads as "AI/analysis", distinct from generic brand blues) */
+  --color-accent: #6c5ce7;
+  --color-accent-soft: rgba(108, 92, 231, 0.14);
+  --color-accent-hover: #7c6df0;
+
+  /* Status */
+  --color-success: #34d399;
+  --color-success-soft: rgba(52, 211, 153, 0.12);
+  --color-error: #f87171;
+  --color-error-soft: rgba(248, 113, 113, 0.12);
+
+  /* Text */
+  --color-text-primary: #e7e9ee;
+  --color-text-secondary: #9aa3b2;
+  --color-text-muted: #5c6478;
+
+  /* Type */
+  --font-display: 'Space Grotesk', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace;
+
+  /* Shape */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+
+  /* Elevation */
+  --shadow-card: 0 20px 60px -20px rgba(0, 0, 0, 0.6);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
