@@ -1,2 +1,0 @@
-# InterviewAI
-ITR-Project
